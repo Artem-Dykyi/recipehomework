@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Golubtci",
+      "photo": "https://images.unian.net/photos/2020_07/1594844831-9010.jpg?0.1421778040046755",
+      "time": "50",
+      "calories": "700",
+      "difficulty": 3
+    },
+     {
+      "name": "Borshch",
+      "photo": "https://images.unian.net/photos/2020_04/1588081977-7108.jpg?0.533115173094685",
+      "time": "120",
+      "calories": "450",
+      "difficulty": 2
+    },
+     {
+      "name": "Varenuku s kartopley",
+      "photo": "https://tasty1.siteo.xyz/r/o/vareniki-z-kartopleyu-163vq.jpg",
+      "time": "35",
+      "calories": "300",
+      "difficulty": 1
+    },
+     {
+      "name": "Mlunci s tvorogom",
+      "photo": "https://myasnuyray.com.ua/wp-content/uploads/2020/07/20-07-20-4-2.jpg",
+      "time": "20",
+      "calories": "200",
+      "difficulty": 3
+    }
+    
+]
