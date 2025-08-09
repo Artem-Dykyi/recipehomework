@@ -1,17 +1,5 @@
 import styled from "styled-components";
 
-const DifficultyWrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-`;
-
-const DifficultyItem = styled.div`
-  padding: 5px 10px;
-  border-radius: 10px;
-  background: ${({ active }) => (active ? "#baff1a" : "#6a8824")};
-`;
-
 
 const Box = styled.div`
     padding: 10px;
@@ -49,22 +37,7 @@ const Info = styled.p`
   font-size: 15px;
 `;
 
-// export const Event = ({ name, photo, time, calories }) => {
-//   return (
-//     <Box>
-//       <Photo src={photo} alt={name} />
-//       <Title>{name}</Title>
-//       <SecoBox>
-//         <Info>{time} хв</Info>
-//         <Info>{calories} ккал</Info>
-//       </SecoBox>
-//     </Box>
-//   );
-// };
-
-export const Event = ({ name, photo, time, calories, difficulty }) => {
-  const difficultyLevels = ["Eazy", "Medium", "Hard"];
-
+export const Event = ({ name, photo, time, calories }) => {
   return (
     <Box>
       <Photo src={photo} alt={name} />
@@ -73,17 +46,10 @@ export const Event = ({ name, photo, time, calories, difficulty }) => {
         <Info>{time} хв</Info>
         <Info>{calories} ккал</Info>
       </SecoBox>
-
-      <DifficultyWrapper>
-        {difficultyLevels.map((label, i) => (
-          <DifficultyItem key={i} active={i + 1 === difficulty}>
-            {label}
-          </DifficultyItem>
-        ))}
-      </DifficultyWrapper>
     </Box>
   );
 };
+
 
 
 export default Event;
